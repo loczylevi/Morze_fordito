@@ -41,10 +41,20 @@ thisdict = {
  ":" : "---...",
  "?" : "..--..",
  "\"" : ".-..-.",
- "'" : ".----."
+ "'" : ".----.",
+ "1" : ".----",
+ "2" : "..---",
+ "3" : "...--",
+ "4" : "....-",
+ "5" : ".....",
+ "6" : "-....",
+ "7" : "--...",
+ "8" : "---..",
+ "9" : "----.",
+ "0" : "-----"
 }
 # maga a program (ne piszkálj bele) _________________________________
-print("A betüket spacel (\" \") válaszd el különben nem működik a\nprogram! Példa: \"a l m a\"\n")
+print("A betüket/karaktereket spacel (\" \") válaszd el különben nem működik a\nprogram! Példa: \"a l m a\"\n")
 while folytkov:
     bekeres = input("Kérem a lefordítandó mondatot!\t")
     b = bekeres.upper()
