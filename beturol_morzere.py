@@ -47,11 +47,12 @@ thisdict = {
 
 while folytkov:
     bekeres = input("Kérem a lefordítandó mondatot!\t")
-    if bekeres == "Grrr":
+    b = bekeres.upper()
+    if b == "GRRR":
         folytkov = False
         print(">>> Program vége <<<")
         break
-    bekeres = bekeres.split(" ")
-    for szo in bekeres:
+    b = b.split(" ")
+    for szo in b:
         print(thisdict.get(szo,"Nincs ilyen szó a szótárban!"),end=" ")
     print("")
