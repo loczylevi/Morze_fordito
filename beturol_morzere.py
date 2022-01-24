@@ -64,5 +64,5 @@ while folytkov:
         break
     b = b.split(" ")
     for szo in b:
-        print(thisdict.get(szo,"Nincs ilyen szó a szótárban!"),end=" ")
+        print(thisdict.get(szo,f"Nincs ilyen szó a szótárban! --> \"{b[0]}\""),end=" ")
     print("")
