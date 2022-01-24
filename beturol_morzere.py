@@ -44,7 +44,7 @@ thisdict = {
  "'" : ".----."
 }
 # maga a program (ne piszkálj bele) _________________________________
-
+print("A betüket spacel (\" \") válaszd el különben nem működik a\nprogram! Példa: \"a l m a\"\n")
 while folytkov:
     bekeres = input("Kérem a lefordítandó mondatot!\t")
     b = bekeres.upper()
