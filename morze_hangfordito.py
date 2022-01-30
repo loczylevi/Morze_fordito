@@ -2,7 +2,7 @@ folytkov = True
 import winsound
 frequency = 2500  
 rovid = 250
-hossz = 500
+hossz = 750
 thisdict = {
  "A" : ".-",
  "Á" : ".--.-",
